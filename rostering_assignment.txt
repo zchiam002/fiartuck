@@ -1,0 +1,14 @@
+##There are 4 weeks to schedule, starting from Monday and ending on Sunday 
+	- 4 mondays, tuesdays, wednesdays, thursdays, fridays
+	- 4 saturdays, sundays 
+
+##Public holidays:
+	- 24 Dec: 3rd Tuesday 
+	- 25 Dec: 3rd Wednesday 
+	- 31 Dec: 4th Tuesday 
+	- 1 Jan : 4th Wednesday
+
+##9 staff 
+	- S1, S3 and S6 have to take 4 hours per week, alone 
+
+

@@ -1,0 +1,25 @@
+\ Model obj_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ c70: s2_0_m0 + s2_0_m1 + s2_0_m2 + s2_0_a0 + s2_0_a1 <= 1
+ c97: s2_3_m0 + s2_3_m1 + s2_3_m2 + s2_3_a0 + s2_3_a1 <= 1
+ c106: s2_4_m0 + s2_4_m1 + s2_4_m2 + s2_4_a0 + s2_4_a1 <= 1
+ c115: s2_5_m0 + s2_5_m1 + s2_5_m2 + s2_5_a0 + s2_5_a1 <= 1
+ c124: s2_6_m0 + s2_6_m1 + s2_6_m2 + s2_6_a0 + s2_6_a1 <= 1
+ c133: s2_0_m0 + s2_0_m1 + s2_0_m2 + s2_0_a0 + s2_0_a1 + s2_1_m0 + s2_1_m1
+   + s2_1_m2 + s2_1_a0 + s2_1_a1 + s2_2_m0 + s2_2_m1 + s2_2_m2 + s2_2_a0
+   + s2_2_a1 + s2_3_m0 + s2_3_m1 + s2_3_m2 + s2_3_a0 + s2_3_a1 + s2_4_m0
+   + s2_4_m1 + s2_4_m2 + s2_4_a0 + s2_4_a1 + s2_5_m0 + s2_5_m1 + s2_5_m2
+   + s2_5_a0 + s2_5_a1 + s2_6_m0 + s2_6_m1 + s2_6_m2 + s2_6_a0 + s2_6_a1
+   = 6
+ c150: s2_1_m0 + s2_1_m1 + s2_1_m2 + s2_1_a0 + s2_1_a1 = 0
+ c154: s2_2_m0 + s2_2_m1 + s2_2_m2 + s2_2_a0 + s2_2_a1 = 0
+Bounds
+Binaries
+ s2_0_m0 s2_0_m1 s2_0_m2 s2_0_a0 s2_0_a1 s2_1_m0 s2_1_m1 s2_1_m2 s2_1_a0
+ s2_1_a1 s2_2_m0 s2_2_m1 s2_2_m2 s2_2_a0 s2_2_a1 s2_3_m0 s2_3_m1 s2_3_m2
+ s2_3_a0 s2_3_a1 s2_4_m0 s2_4_m1 s2_4_m2 s2_4_a0 s2_4_a1 s2_5_m0 s2_5_m1
+ s2_5_m2 s2_5_a0 s2_5_a1 s2_6_m0 s2_6_m1 s2_6_m2 s2_6_a0 s2_6_a1
+End
